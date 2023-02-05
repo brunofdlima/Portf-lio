@@ -9,7 +9,7 @@ const calc = require("../pictures/calc.jpg");
 export const Projects = (props: any) => {
   return (
     <section id={props.id} className="mx-auto max-w-[75rem] py-32 px-8">
-      <div className="grid grid-cols-3 max-[1050px]:grid-cols-2 max-[768px]:grid-cols-1 max-[768px]:ml-[13%]">
+      <div className="grid grid-cols-3 max-[1050px]:grid-cols-2 max-[768px]:grid-cols-1 max-[375px]:ml-2 max-[425px]:ml-8">
         <ComponentProjects
           title="Busca tempo"
           destination={search}

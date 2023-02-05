@@ -1,6 +1,6 @@
 import "./index.css";
 
-import { Navbar } from "./components/Navbartop";
+import { Navbarfull } from "./components/Navbartop";
 import { Welcome } from "./components/Welcome";
 import { Projects } from "./components/Projects";
 import { Technologies } from "./components/Technologies";
@@ -15,7 +15,7 @@ AOS.init();
 function App() {
   return (
     <div className="text-xl bg-slate-900">
-      <Navbar />
+      <Navbarfull />
       <div
         data-aos="fade-in"
         data-aos-delay="50"

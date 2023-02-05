@@ -1,37 +1,54 @@
-import { useState } from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { RiInstagramLine } from "react-icons/ri";
-import { Divide as Hamburger } from "hamburger-react";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 import { ComponentNavbar } from "./extras/ComponentNavbar";
 
 const logo = require("../pictures/Logo.png");
 
-export const Navbar = () => {
+export const Navbarfull = () => {
   return (
-    <section className="fixed flex justify-around z-10 bg-slate-900 text-white text-2xl w-screen items-center max-[768px]:h-[3.75rem]">
-      <button className="min-[710px]:hidden">
-        <Hamburger
-          onToggle={(toggled) => {
-            if (toggled) {
-              <div className="w-[800px] h-2">Prefiro fechado</div>;
-            }
-          }}
-        />
-      </button>
+    <section className="fixed flex justify-around px-4 z-10 bg-slate-900 text-white text-2xl w-screen items-center max-[768px]:h-[3.75rem] max-[768px]:justify-between">
       <div>
         <img
           src={logo}
           alt="logo"
-          className="h-16 w-20 -translate-y-3 max-[768px]:hidden"
+          className="h-16 w-20 -translate-y-3 max-[820px]:hidden"
         />
       </div>
-      <div className="max-[710px]:hidden">
-        <ComponentNavbar item="Sobre" link="#about" />
-        <ComponentNavbar item="Projetos" link="#projects" />
-        <ComponentNavbar item="Tecnologias" link="#technologies" />
-        <ComponentNavbar item="Certificações" link="#certifications" />
-      </div>
+      <ul className="hidden md:flex items-center pr-10 pointer">
+        <li>
+          <ComponentNavbar item="Sobre" link="#about" />
+        </li>
+        <li>
+          <ComponentNavbar item="Projetos" link="#projects" />
+        </li>
+        <li>
+          <ComponentNavbar item="Tecnologias" link="#technologies" />
+        </li>
+        <li>
+          <ComponentNavbar item="Certificações" link="#certifications" />
+        </li>
+      </ul>
+      <button className="md:hidden py-3 px-4 rounded focus:outline-none hover:bg-gray-100 group mr-auto">
+        <GiHamburgerMenu />
+        <div className="absolute top-0 -left-full h-screen w-8/12 bg-slate-900 opacity-0 group-focus:left-0 group-focus:opacity-100 transition-all duration-300">
+          <ul>
+            <li className="text-white hover:bg-gray-400 py-4 px-6 w-full mt-16">
+              <ComponentNavbar item="Sobre" link="#about" />
+            </li>
+            <li className="text-white hover:bg-gray-400 py-4 px-6 w-full">
+              <ComponentNavbar item="Projetos" link="#projects" />
+            </li>
+            <li className="text-white hover:bg-gray-400 py-4 px-6 w-full">
+              <ComponentNavbar item="Tecnologias" link="#technologies" />
+            </li>
+            <li className="text-white hover:bg-gray-400 py-4 px-6 w-full">
+              <ComponentNavbar item="Certificações" link="#certifications" />
+            </li>
+          </ul>
+        </div>
+      </button>
       <div className="flex justify-between">
         <a
           href="https://github.com/brunofdlima"
