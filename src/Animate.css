@@ -1,0 +1,12 @@
+#icon {
+  animation: go-back 1.5s infinite alternate;
+}
+
+@keyframes go-back {
+  from {
+    transform: translateX(80px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
