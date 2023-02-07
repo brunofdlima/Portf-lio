@@ -5,6 +5,7 @@ const vaga = require("../pictures/vaga.jpg");
 const list = require("../pictures/listagem.jpg");
 const crono = require("../pictures/crono.jpg");
 const calc = require("../pictures/calc.jpg");
+const buscacep = require("../pictures/buscacep.jpg");
 
 export const Projects = (props: any) => {
   return (
@@ -21,6 +22,12 @@ export const Projects = (props: any) => {
           destination={vaga}
           description="Gera o índice de uma das 'vagas' disponíveis."
           link="https://cadastroestacionamento.vercel.app/"
+        />
+        <ComponentProjects
+          title="Busca cep"
+          destination={buscacep}
+          description="Consumo da api - cep.awesomeapi."
+          link="https://https://busca-cep-tau.vercel.app/"
         />
         <ComponentProjects
           title="TO-DO List"
