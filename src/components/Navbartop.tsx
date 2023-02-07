@@ -59,7 +59,7 @@ export const Navbarfull = () => {
           <FaGithub />
         </a>
         <a
-          href="https://www.linkedin.com/in/bruno-ferreira-dias-de-lima-317022216/"
+          href="https://www.linkedin.com/in/bruno-ferreira-317022216/"
           target="blank"
           className="ml-8 hover:text-blue-500 hover:duration-500"
           rel="noreferrer"

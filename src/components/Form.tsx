@@ -56,7 +56,7 @@ export const Form = () => {
         onSubmit={sendEmail}
       >
         <input
-          className="mt-4 bg-slate-200 rounded-sm"
+          className="mt-4 bg-slate-200 rounded-lg h-8 p-4"
           type="text"
           placeholder="Digite seu nome"
           onChange={(e) => setName(e.target.value)}
@@ -64,7 +64,7 @@ export const Form = () => {
         />
 
         <input
-          className="mt-4 bg-slate-200 rounded-sm"
+          className="mt-4 bg-slate-200 rounded-lg h-8 p-4"
           type="text"
           placeholder="Digite seu email"
           onChange={(e) => setEmail(e.target.value)}
@@ -72,7 +72,7 @@ export const Form = () => {
         />
 
         <textarea
-          className="mt-4 h-28 bg-slate-200 rounded-lg"
+          className="mt-4 h-28 bg-slate-200 rounded-lg p-4"
           placeholder="Digite sua mensagem..."
           onChange={(e) => setMessage(e.target.value)}
           value={message}
