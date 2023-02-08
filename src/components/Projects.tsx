@@ -27,7 +27,7 @@ export const Projects = (props: any) => {
           title="Busca cep"
           destination={buscacep}
           description="Consumo da api - cep.awesomeapi."
-          link="https://https://busca-cep-tau.vercel.app/"
+          link="https://busca-cep-tau.vercel.app/"
         />
         <ComponentProjects
           title="TO-DO List"
