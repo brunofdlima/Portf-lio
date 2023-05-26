@@ -4,7 +4,7 @@
 
 @keyframes go-back {
   from {
-    transform: translateX(80px);
+    transform: translateX(3.125rem);
   }
   to {
     transform: translateX(0);

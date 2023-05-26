@@ -1,3 +1,6 @@
+import { BiCodeAlt } from "react-icons/bi";
+import { FiEye } from "react-icons/fi";
+
 export const ComponentProjects = (props: any) => {
   return (
     <div
@@ -18,8 +21,13 @@ export const ComponentProjects = (props: any) => {
       </div>
       <div className="flex justify-center mt-3">
         <a href={`${props.link}`} target="_blank" rel="noreferrer">
-          <button className="w-[12.5rem] h-[1.875rem] my-2 rounded-full bg-gradient-to-r from-indigo-500 to-sky-500 hover:opacity-80">
-            Link direto
+          <button className="w-[4rem] h-[1.875rem] my-2 mx-2 rounded-full bg-gradient-to-r from-indigo-500 to-sky-500 hover:opacity-80">
+            <FiEye className="mx-auto"/>
+          </button>
+        </a>
+        <a href={`${props.linkrepo}`} target="_blank" rel="noreferrer">
+          <button className="w-[4rem] h-[1.875rem] my-2 mx-2 rounded-full bg-gradient-to-r from-indigo-500 to-sky-500 hover:opacity-80">
+            <BiCodeAlt className="mx-auto"/>
           </button>
         </a>
       </div>

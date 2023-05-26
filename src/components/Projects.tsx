@@ -16,36 +16,42 @@ export const Projects = (props: any) => {
           destination={imoneyup}
           description="Sistema autoral completo para controle de finanças"
           link="https://imoneyup.vercel.app/"
+          linkrepo="https://github.com/brunofdlima/Imoneyup"
         />
         <ComponentProjects
           title="Busca tempo"
           destination={search}
           description="Consumo da api - openweathermap."
           link="https://searchweather.vercel.app/"
+          linkrepo="https://github.com/brunofdlima/searchweather"
         />
         <ComponentProjects
           title="Vaga estacionamento"
           destination={vaga}
           description="Gera o índice de uma das 'vagas' disponíveis."
           link="https://cadastroestacionamento.vercel.app/"
+          linkrepo="https://github.com/brunofdlima/cadastroEstacionamento"
         />
         <ComponentProjects
           title="Busca cep"
           destination={buscacep}
           description="Consumo da api - cep.awesomeapi."
           link="https://busca-cep-tau.vercel.app/"
+          linkrepo="https://github.com/brunofdlima/busca-cep"
         />
         <ComponentProjects
           title="TO-DO List"
           destination={list}
           description="Cria uma listagem geral sobre qualquer tema."
           link="https://todolistreact-puce.vercel.app/"
+          linkrepo="https://github.com/brunofdlima/Listagem-React"
         />
         <ComponentProjects
           title="Calculadora"
           destination={calc}
           description="Calculadora não científica com funções padrão."
           link="https://calculadora-five-theta.vercel.app/"
+          linkrepo="https://github.com/brunofdlima/Calculadora-"
         />
       </div>
     </section>
