@@ -46,13 +46,6 @@ export const Projects = (props: any) => {
           link="https://todolistreact-puce.vercel.app/"
           linkrepo="https://github.com/brunofdlima/Listagem-React"
         />
-        <ComponentProjects
-          title="Calculadora"
-          destination={calc}
-          description="Calculadora não científica com funções padrão."
-          link="https://calculadora-five-theta.vercel.app/"
-          linkrepo="https://github.com/brunofdlima/Calculadora-"
-        />
       </div>
     </section>
   );
