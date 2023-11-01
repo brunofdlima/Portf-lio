@@ -3,7 +3,7 @@ import { ComponentCertifications2 } from "./extras/ComponentCertifications2";
 
 export const Certifications = (props: any) => {
   return (
-    <section id={props.id} className="mx-auto max-w-[75rem] py-36 px-8 grid grid-cols-2 md:grid-cols-1">
+    <section id={props.id} className="mx-auto max-w-[75rem] py-36 px-8 flex justify-center max-[75rem]:flex-col">
         <div>
             <ComponentCertifications
               initial="07/2018 -"

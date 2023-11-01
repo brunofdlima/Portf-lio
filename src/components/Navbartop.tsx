@@ -8,12 +8,12 @@ const logo = require("../pictures/Logo.png");
 
 export const Navbarfull = () => {
   return (
-    <section className="fixed flex justify-around px-4 z-10 bg-slate-900 text-white text-2xl w-screen items-center max-[768px]:h-[3.75rem] max-[768px]:justify-between">
+    <section className="fixed flex justify-around px-4 z-10 bg-slate-900 text-white text-2xl w-screen items-center max-[48rem]:h-[3.75rem] max-[48rem]:justify-between">
       <div>
         <img
           src={logo}
           alt="logo"
-          className="h-16 w-20 -translate-y-3 max-[820px]:hidden"
+          className="h-16 w-20 -translate-y-3 max-[51.25rem]:hidden"
         />
       </div>
       <ul className="hidden md:flex items-center pr-10 pointer">
