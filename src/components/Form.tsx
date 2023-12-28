@@ -45,14 +45,14 @@ export const Form = () => {
   }
 
   return (
-    <div className="bg-slate-800 flex justify-center h-auto items-center py-8 px-8 max-[48rem]:flex-col max-[23.4375rem]:px-0 max-[20rem]: text-sm">
+    <div className="bg-slate-800 flex justify-center h-auto items-center py-8 px-8 max-[768px]:flex-col max-[375px]:px-0 max-[320px]: text-sm">
       <h1 className="text-gray-400">Contato por e-mail</h1>
       <BsFillArrowRightCircleFill
         className="mr-16 ml-4 h-12 w-12 text-gray-400 max-[768px]:hidden"
         id="icon"
       />
       <form
-        className="flex flex-col bg-slate-900 px-6 py-4 w-96 rounded-lg max-[23.4375rem]:w-[21.875rem] max-[20rem]:w-[18.75rem]"
+        className="flex flex-col bg-slate-900 px-6 py-4 w-96 rounded-lg max-[375px]:w-[21.875rem] max-[320px]:w-[18.75rem]"
         onSubmit={sendEmail}
       >
         <input

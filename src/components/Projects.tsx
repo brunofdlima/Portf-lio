@@ -10,7 +10,7 @@ const buscacep = require("../pictures/buscacep.jpg");
 export const Projects = (props: any) => {
   return (
     <section id={props.id} className="mx-auto max-w-[75rem] py-32 px-8">
-      <div className="grid grid-cols-3 max-[65.625rem]:grid-cols-2 max-[48rem]:grid-cols-1 max-[23.4375rem]:ml-2 max-[26.5625rem]:ml-8">
+      <div className="grid grid-cols-3 max-[1050px]:grid-cols-2 max-[768px]:grid-cols-1 max-[375px]:ml-2 max-[425px]:ml-8">
       <ComponentProjects
           title="Imoney-up"
           destination={imoneyup}
