@@ -32,7 +32,7 @@ export const Navbarfull = () => {
       </ul>
       <button className="md:hidden py-3 px-4 rounded focus:outline-none hover:bg-gray-100 group mr-auto">
         <GiHamburgerMenu />
-        <div className="absolute top-0 -left-full h-screen w-8/12 bg-slate-900 opacity-0 group-focus:left-0 group-focus:opacity-100 transition-all duration-300">
+        <div className="absolute top-0 -left-full w-[50%] bg-slate-900 opacity-0 group-focus:left-0 group-focus:opacity-100 transition-all duration-300">
           <ul>
             <li className="text-white hover:bg-gray-400 py-4 px-6 w-full mt-16">
               <ComponentNavbar item="Sobre" link="#about" />

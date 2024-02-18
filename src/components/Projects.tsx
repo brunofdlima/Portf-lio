@@ -1,11 +1,10 @@
 import { ComponentProjects } from "./extras/ComponentP";
 
-const search = require("../pictures/weather.jpg");
+const search = require("../pictures/weather.png");
 const vaga = require("../pictures/vaga.jpg");
 const list = require("../pictures/listagem.jpg");
 const imoneyup = require("../pictures/dashboardimoneyup.jpg");
-const calc = require("../pictures/calc.jpg");
-const buscacep = require("../pictures/buscacep.jpg");
+const buscacep = require("../pictures/buscacep.png");
 
 export const Projects = (props: any) => {
   return (
