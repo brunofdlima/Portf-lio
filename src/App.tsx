@@ -27,7 +27,10 @@ function App() {
       >
         <Welcome id="about" />
       </div>
-      <div className="w-[5%] ml-[20%] h-2 rounded-full bg-gradient-to-r from-indigo-500 to-sky-500"></div>
+      <div className="flex py-20">
+        <h2 className="text-white ml-[17%] "># Projetos</h2>
+        <div className="ml-8 w-[55%] h-2 rounded-full bg-gradient-to-r from-indigo-500 to-sky-500"></div>
+      </div>
       <div
         data-aos="fade-right"
         data-aos-delay="50"
@@ -39,7 +42,10 @@ function App() {
       >
         <Projects id="projects" />
       </div>
-      <div className="w-[5%] ml-[20%] h-2 rounded-full bg-gradient-to-r from-indigo-500 to-sky-500"></div>
+      <div className="flex py-20">
+        <h2 className="text-white ml-[17%] "># Tecnologias</h2>
+        <div className="ml-8 w-[55%] h-2 rounded-full bg-gradient-to-r from-indigo-500 to-sky-500"></div>
+      </div>
       <div
         data-aos="fade-right"
         data-aos-delay="50"
@@ -51,7 +57,10 @@ function App() {
       >
         <Technologies id="technologies" />
       </div>
-      <div className="w-[5%] ml-[20%] h-2 rounded-full bg-gradient-to-r from-indigo-500 to-sky-500"></div>
+      <div className="flex py-20">
+        <h2 className="text-white ml-[17%] "># Certificações</h2>
+        <div className="ml-8 w-[55%] h-2 rounded-full bg-gradient-to-r from-indigo-500 to-sky-500"></div>
+      </div>
       <div
         data-aos="fade-right"
         data-aos-delay="50"
